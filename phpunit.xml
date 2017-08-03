@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <phpunit
+            colors="true"
+            verbose="true"
+            bootstrap="vendor/autoload.php">
+        <php>
+            <var name="QUERY_STRING" value="controller/add" />
+        </php>
+        <testsuites>
+            <testsuite name="Bingo Router TestSuite">
+                <directory suffix="Test.php">tests</directory>
+            </testsuite>
+        </testsuites>
+    </phpunit>

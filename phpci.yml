@@ -1,0 +1,14 @@
+#Bingo Router PHP-CI configuration
+
+build_settings:
+    ignore:
+        - "vendor"
+        - "tests"
+
+setup:
+    composer:
+        action: "install"
+
+test:
+    php_code_sniffer:
+        standard: "PSR2"        
